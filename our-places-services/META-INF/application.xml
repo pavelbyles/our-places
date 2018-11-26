@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+
+  <description>Our Places Services</description>
+  <display-name>Our Places</display-name>
+
+  <!-- Services -->
+  <!-- The default service should be listed first -->
+  <module>
+    <web>
+      <web-uri>service1</web-uri>
+      <context-root>service1t</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>service2</web-uri>
+      <context-root>service2</context-root>
+    </web>
+  </module>
+
+</application>
